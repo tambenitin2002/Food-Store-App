@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #f0f8ff, #e0f7fa); /* Gradient background for a modern look */
+    color: #333;
+}
+
+/* Checkout Heading Styling */
+.checkout-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.checkout-heading h1 {
+    font-size: 44px;
+    letter-spacing: 2px;
+    color: #6a11cb; /* Vibrant color for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Box Styling */
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.input-box input {
+    height: 40px;
+    width: 400px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    margin-top: 1rem;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-box input:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 4px 10px rgba(106, 17, 203, 0.3);
+}
+
+/* Button Styling */
+.input-box button {
+    margin-top: 1rem;
+    height: 45px;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(90deg, #6a11cb, #2575fc); /* Gradient for the button */
+    color: white;
+    font-weight: bold;
+    border-radius: 25px; /* Rounded corners for a button */
+    font-size: 17px;
+    outline: none;
+    border: none;
+    width: 420px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-box button:hover {
+    background: linear-gradient(90deg, #2575fc, #6a11cb); /* Swap gradient colors on hover */
+    box-shadow: 0 6px 15px rgba(106, 17, 203, 0.4);
+    transform: translateY(-2px);
+}

@@ -1,0 +1,29 @@
+/* Blog Container */
+.blog-container {
+    max-width: 800px;
+    margin: 60px auto 20px auto; /* Adjust for navbar height */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blog-container p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .blog-container img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
